@@ -1,0 +1,73 @@
+  body{
+   display: grid;
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns:auto auto auto;
+    grid-gap: 10px;
+    padding:70px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color:#EBEBEB ;
+    
+}
+#Tim{
+    border-radius: 50%;
+    border-style: groove;
+}
+#Header h1{
+    color: #DD5D6E;
+    font-family: 'Open Sans',sans-serif;
+}
+#Header h2{
+    color: #7D7D7D;
+    font-family: 'Open Sans', sans-serif;
+}
+#Header p{
+    ont-family: 'Open Sans', sans-serif;
+    color: #A6A7B4;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+button{
+    box-sizing: content-box;
+    color: #DD5555;
+    border-radius: 5px;
+    width: 180px;
+    font-family:'Open Sans' sans-serif;
+    height: 5vh;
+}
+#Header{
+    background-color:#FFFFFF;
+    grid-column-start: 2;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+#icons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 0px;
+    row-gap: -25px;
+    color: #cccccc;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    grid-column-start: 2;
+    text-align: center;
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+#Facebook{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+#Linkedin{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#Twitter{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
